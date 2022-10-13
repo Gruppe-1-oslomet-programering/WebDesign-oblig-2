@@ -31,6 +31,12 @@
 .header {
     font-size: 70px;
     text-align: justify;
+    float: left;
+    width: 50%;
+}
+.subHeader{
+    float: left;
+    width: 50%;
 }
 
 
@@ -46,6 +52,7 @@ img {
 }
 .imgBoard {
     float: right;
+    border: 1px solid black;
     
 }
 .imgHeader {
@@ -67,10 +74,10 @@ footer{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
     color: white;
-    font-size: small;
+    font-size: medium;
      
     float: right;
-    width: 30%;
+    width: 20%;
     margin: 1%;
     padding: 2%;
     border-bottom-left-radius: 10%;
@@ -81,7 +88,7 @@ footer{
     
 .tech-header {
     /*Her skal samme style som NINTENDO 64 main header */
-    font-style: ;
+    
     color: rgb(255, 197, 19);
 
     }  
@@ -97,15 +104,17 @@ footer{
 
 
 .intro{
-    color: rgb(86,85,82)
+    color: rgb(86,85,82);
+    float: left;
+    width: 40%;
 
 }
 
 .mainText {
-    font-family: ;
+    
     text-align: left;
     float: left;
-    width: 60%;
+    width: 50%;
     margin: 1%;
     
     text-align: justify;
