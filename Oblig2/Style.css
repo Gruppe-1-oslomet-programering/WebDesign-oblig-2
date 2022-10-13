@@ -1,0 +1,130 @@
+
+
+
+/* bulletproof font-face (vet ikke hvor dere fant Nintendo64 font?) —!>
+
+/* /Til overskrift Nintendo 64  */
+/* og sidebar "Nintendo Tech Specs":  */
+@font-face{
+	font-family: 'Nintendo64';
+	src: url('   .eot');
+	src: url('   .eot?#iefix'),
+		  format('embedded-opentype'),
+		url('     .woff'),
+		 format('woff'),
+		url('     .ttf'),
+		 format('truetype'),
+		url(      .svg#Nintendo64'),
+		 format('svg');
+}
+
+.circle {
+    height: 80px;
+    width: 80px;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: rgb(255, 197, 19);
+    display: inline-block;
+    text-align: center;
+
+    }
+.header {
+    font-size: 70px;
+    text-align: justify;
+}
+
+
+
+img {
+    width: 65%;
+    height: 50%;
+    
+}
+.imgConsole {
+    float: left;
+        
+}
+.imgBoard {
+    float: right;
+    
+}
+.imgHeader {
+    width: 10%;
+    height: 10%;
+    float: left;
+     
+
+}
+
+footer{
+    
+}
+
+ 
+
+.tech {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: small;
+     
+    float: right;
+    width: 30%;
+    margin: 1%;
+    padding: 2%;
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
+     
+     
+    }
+    
+.tech-header {
+    /*Her skal samme style som NINTENDO 64 main header */
+    font-style: ;
+    color: rgb(255, 197, 19);
+
+    }  
+.sideContent{
+    border: 1px solid black;
+    float: right;
+    width: 30%;
+    margin: 1%;
+    font-size: 15px;
+    text-align: left;
+
+}    
+
+
+.intro{
+    color: rgb(86,85,82)
+
+}
+
+.mainText {
+    font-family: ;
+    text-align: left;
+    float: left;
+    width: 60%;
+    margin: 1%;
+    
+    text-align: justify;
+    
+}    
+
+
+
+
+body {
+	background-color: white;
+	font-family: Nintendo64, Georgia, serif;
+	color: black;	
+}
+
+
+h1 {
+	text-transform: uppercase;
+	color: black;
+}
+
+	
