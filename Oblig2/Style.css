@@ -1,26 +1,22 @@
 
 
 
-/* bulletproof font-face (vet ikke hvor dere fant Nintendo64 font?) —!>
-
-/* /Til overskrift Nintendo 64  */
-/* og sidebar "Nintendo Tech Specs":  */
-@font-face{
-	font-family: 'Nintendo64';
-	src: url('   .eot');
-	src: url('   .eot?#iefix'),
-		  format('embedded-opentype'),
-		url('     .woff'),
-		 format('woff'),
-		url('     .ttf'),
-		 format('truetype'),
-		url(      .svg#Nintendo64'),
-		 format('svg');
+.header {
+    /*needs a font? Who pays for Nintendo?
+    Same font in Tech Specs header.
+    */
+   
+    font-size: 50px;
+    text-align: justify;
+    float: left;
+    width: 50%;
+    margin: auto;
+    display: block;
+    
 }
-
 .circle {
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
     padding: 2px;
     border-radius: 50%;
     background-color: rgb(255, 197, 19);
@@ -89,7 +85,18 @@ footer{
     bottom:0;   
 }
 
- 
+.sideContent{
+    border: 1px solid black;
+    float: right;
+    width: 30%;
+    margin: 3%;
+    padding: 2%;
+    font-size: medium;
+    text-align: left;
+    margin-bottom: 5%;
+    margin-right: 6%;
+
+}     
 
 .tech {
 
@@ -116,18 +123,31 @@ footer{
     color: rgb(255, 197, 19);
 
     }  
-.sideContent{
-    border: 1px solid black;
-    float: right;
-    width: 30%;
-    margin: 1%;
-    font-size: 15px;
+
+
+
+.intro{
+    color: rgb(86,85,82);
     text-align: left;
+    width: 50%;
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 
+   
+
+}
+
+.mainText {
+    
+    text-align: left;
+    float: left;
+    width: 50%;
+    margin: 1%;
+    
+    text-align: justify;
+    
 }    
-
-
-     
 
 
 
@@ -137,6 +157,7 @@ footer{
 h1 {
 	text-transform: uppercase;
 	color: black;
+    
 }
 
 	
