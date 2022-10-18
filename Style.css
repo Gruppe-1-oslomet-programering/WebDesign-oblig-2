@@ -1,11 +1,11 @@
 
 
 
+
 .header {
-    /*needs a font? Who pays for Nintendo?
-    Same font in Tech Specs header.
-    */
+ 
    
+    font-family: 'Junge', Georgia, sans-serif;
 
     position: relative;
     top: 50%;
@@ -91,8 +91,8 @@ footer{
     }
     
 .tech-header {
-    /*Her skal samme style som NINTENDO 64 main header */
-    
+
+    font-family: 'Junge', Georgia, sans-serif;
     color: rgb(255, 197, 19);
 
     }  
@@ -127,7 +127,7 @@ footer{
 
 body {
 	background-color: white;
-	font-family: Nintendo64, Georgia, serif;
+	font-family: Georgia, serif;
 	color: black;	
 }
 
