@@ -6,12 +6,13 @@
     Same font in Tech Specs header.
     */
    
-    font-size: 50px;
-    text-align: justify;
-    float: left;
-    width: 50%;
-    margin: auto;
+
+    position: relative;
+    top: 50%;
+    text-align: left;
     display: block;
+    font-size: 50px;
+    margin: auto;
     
 }
 .circle {
